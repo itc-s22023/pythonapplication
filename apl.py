@@ -8,7 +8,7 @@ def call_api():
     key = '?api_key=KktmCgrPKfbbteMDeRSxH3mGSKMicQHC5cSXko7q'
     key = '?api_key=NpR0jgznUtMyCuQxk5ZuB6ZvDEtDym5I112fyAIU'
     date = '&date='
-    inp = input('日付入力してください: ')
+    inp = input('日付を入力してください:(YYYY-MM-DD) ')
 
     url = f'{base}{key}{date}{inp}'
     res = requests.get(url)
